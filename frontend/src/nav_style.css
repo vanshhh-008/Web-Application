@@ -1,0 +1,358 @@
+*{
+
+    margin:0px;
+    padding:0px;
+}
+
+
+.carousel-inner img{
+    height: 320px;
+    min-width: 320px;
+ 
+}
+
+#carouselExampleIndicators{
+width: 320px;
+margin: auto;
+}
+
+.getstart button{
+    min-width: 250px;
+    height: 50px;
+    justify-content: center;
+    
+}
+.iconCoffee{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 10%;
+    min-width: 100px;
+    height: 20px;
+    color: gray;
+    
+
+
+  
+}
+
+.iconCoffee:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+}
+
+.iconHome{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-width: 70px;
+  
+    color: white;
+    border: 1px solid #ff4500;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ff4500;
+  
+   
+}
+
+
+.iconUser{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 90%;
+    min-width: 100px;
+    height: 20px;
+    color: gray;
+
+ 
+   
+
+
+}
+
+.iconUser{
+    min-width: 100px;
+    height: 20px;
+    color: gray;
+   
+    justify-content: center;
+
+}
+
+.iconUser:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+}
+
+.iconBurger{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 30%;
+    min-width: 100px;
+    height: 20px;
+    color: gray;
+ 
+
+
+
+}
+
+.iconBurger:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+
+.iconPhone{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 70%;
+    min-width: 100px;
+    height: 20px;
+    color: gray;
+    
+
+
+}
+.iconPhone:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+.coffee .iconCoffee{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+.coffee .iconHome{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-width: 100px;
+    height: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: gray;
+   
+
+}
+
+.coffee .iconHome:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+    
+}
+
+
+.user .iconUser{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+.user .iconUser:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+}
+
+.user .iconHome:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+    
+}
+
+
+.user .iconHome{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-width: 100px;
+    height: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: gray;
+   
+
+}
+
+
+.burger .iconBurger{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+.burger .iconBurger:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+}
+
+.burger .iconHome:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+    
+}
+
+.burger .iconHome{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-width: 100px;
+    height: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: gray;
+   
+
+}
+
+
+
+.call .iconPhone{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+}
+
+.call .iconPhone:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+}
+
+.call .iconHome:hover{
+    border: 1px solid #ff4500;
+    border-radius: 20px;
+    background-color: #ff4500;
+    color:white;
+    height: 30px;
+    min-width: 70px;
+
+    
+}
+
+.call .iconHome{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    min-width: 100px;
+    height: 20px;
+    border: 1px solid transparent;
+    background-color: transparent;
+    color: gray;
+   
+
+}
+
+
+/* search bar css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+
+       body{
+   
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+
+       }
+
+       .height{
+        height: 110vh;
+       }
+
+
+
+
+
+ 
+
+
+
+   .checked {   
+    color: orange;
+  }
+
+
+  /* .card{
+        display:flex;
+        height:20rem;
+        margin:5px;
+        box-shadow:8px 8px 12px 8px rgba(0, 0, 0, 0.2), 0 8px 25px 0 rgba(0, 0, 0, 0.19);
+        margin-top: -40rem;
+  } */
+
+
+  .image1{
+
+    background-position: center;
+    background-size: cover;
+   
+  }
+
+
+  
+  
+
+
