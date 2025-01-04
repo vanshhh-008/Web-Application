@@ -12,7 +12,7 @@ export default function Contact({ size }) {
 
   const sentReview = async () => {
     try {
-      const response = await fetch("http://localhost:9000/review", {
+      const response = await fetch("https://web-application-api.vercel.app/review", {
         method: "POST",
         body: JSON.stringify({ review: Review }), 
         headers: {

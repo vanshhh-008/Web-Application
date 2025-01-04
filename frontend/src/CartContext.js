@@ -94,7 +94,7 @@ const handleChange = (e) => {
 
         
         try {
-          const response = await fetch("http://localhost:9000/confirm", {
+          const response = await fetch("https://web-application-api.vercel.app/confirm", {
             method: "POST",
             body: JSON.stringify(orderData),
             headers: {
