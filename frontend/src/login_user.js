@@ -77,7 +77,7 @@ try {
           <h1>LOG IN</h1>
           <p>Fill out the form below to proceed.</p>
         </header>
-        <main className="form-container2" style={{marginBottom:'55px'}}>
+        <main className="form-container2" style={{marginBottom:'50px'}}>
           <form className="form2" onSubmit={HandleLogin}>
           
             {/* Email */}
