@@ -34,7 +34,7 @@ toast.error("Email and password are required !");
 }
 
 try {
-    const url = "https://web-application-api.vercel.app/auth/signup";
+    const url = "https://web-application-backend-iznc.onrender.com/auth/signup";
     const response = await fetch(url,{
         method:"POST",
         headers:{
